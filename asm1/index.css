@@ -1,0 +1,380 @@
+.boxcenter{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+.form a{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+.form>button{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+   margin-left: 5%;
+    
+}
+
+.boxcenter>img {
+    width: 100%;
+    
+}
+.boxleft{
+    float: left;
+    width: calc( 70% - 20px);
+    background-color:white;
+    min-height: 550px;
+    margin-right: 20px;
+    
+}
+.boxleft img{
+    float: left;
+    padding: 5px;
+    width: 150px;
+}
+
+.boxright{
+    float: left;
+    width: 30%;
+    background-color:white;
+    min-height: 550px;
+    
+}
+.boxright img{
+    width: 65%;
+}
+hr{
+    clear: both;
+}
+a{
+color:blue;
+text-decoration: none;
+font-size: 12pt;
+}
+a:hover{
+    color: red;
+}
+.menu{
+    width: 100%;
+    
+    border: 1px solid black;
+    background-color: pink;
+    
+    
+}
+
+
+.menu ul li{
+    position: relative;
+
+}
+.menu ul li:hover ul{
+    background-color: wheat;
+    border: 1px solid black;
+    width: 200px;
+    height:200px;
+    padding-left: 10%;
+
+}
+
+.menu ul li ul{
+    display:none;
+    position: absolute;
+   
+}
+
+
+
+li{
+    list-style: none;
+   display: inline-block;
+   padding-right: 10px;
+   
+}
+ul{
+    text-align: center;
+    
+    
+}
+
+ul li a{
+font-size: 12pt;
+
+
+}
+
+
+
+.boxleft1{
+    float: left;
+    width:calc( 67% - 20px);
+    background-color:white;
+    min-height: 250px;
+    margin-right: 20px;
+border: 3px solid green;
+
+    
+}
+.boxright1{
+    float: left;
+    width: 30%;
+    background-color:white;
+    min-height: 200px;
+    border: 3px solid green;
+    font-weight: bold;
+}
+ul li ul{
+    display: none;
+    padding: 0;
+    
+}
+ul li:hover ul{
+    display: grid;
+    
+    background-color:pink;
+    text-align: justify;
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+    position: absolute;
+}
+.boxleft1 a{
+float: left;
+color: black;
+font-size: 12pt;
+padding: 5px;
+
+}
+.boxleft1 p1{
+    font-weight: bold;
+    font-size: 16pt;
+   color: white;
+   display: block;
+   background-color: green;
+   text-align: center;
+}
+.boxleft1 p1:hover{
+    color: red;
+}
+.boxleft1 a:hover{
+    color: red;
+}
+.boxright1 a{
+    float: left;
+color: black;
+font-size: 12pt;
+padding: 5px;
+}
+.boxright1 p1{
+    font-weight: bold;
+    font-size: 16pt;
+   color: white;
+   display: block;
+   background-color: green;
+   text-align: center;
+  
+}
+.boxright1 p1:hover{
+color: red;
+}
+.boxright1 a:hover{
+    color: red;
+}
+.boxleft2{
+    float: left;
+    width:calc( 67% - 20px);
+    background-color:white;
+    min-height: 150px;
+    margin-right: 20px;
+    border: 3px solid green;
+    
+}
+.boxleft2 p1{
+    font-weight: bold;
+    font-size: 16pt;
+   color: white;
+   display: block;
+   background-color: green;
+   text-align: center;
+}
+.boxleft2 a{
+    float: left;
+    color: black;
+    font-size: 12pt;
+    padding: 5px;
+}
+.boxleft2 p1:hover{
+    color: red;
+}
+.boxleft2 a:hover{
+    color: red;
+}
+.boxright2{
+    float: left;
+    width: 30%;
+    background-color:white;
+    min-height: 200px;
+    border: 3px solid green;
+    font-weight: bold;
+    
+}
+.boxright2 p1{
+    font-weight: bold;
+    font-size: 16pt;
+   color: white;
+   display: block;
+   background-color: green;
+   text-align: center;
+}
+.boxright2 a{
+    float: left;
+    color: black;
+    font-size: 12pt;
+    padding: 5px;
+}
+.boxright2 a:hover{
+    color: red;
+}
+.boxright2 p1:hover{
+    color: red;
+}
+.boxleft3{
+    float: left;
+    width: 30%;
+    background-color:white;
+    min-height: 300px;
+    border: 3px solid green;
+    font-weight: bold;
+    
+}
+.boxleft3 >img{
+    width: 40%;
+    float: left;   
+    padding: 10px;
+}
+.boxleft3 p{
+   padding: 5px;
+}
+
+.boxleft3 a{
+    
+    color: black;
+}
+.boxleft3 p1{
+    font-weight: bold;
+    font-size: 16pt;
+   color: white;
+   display: block;
+   background-color: green;
+   text-align: center;
+}
+.boxleft3 p1:hover{
+    color: red;
+}
+.boxleft3 a:hover{
+    color: red;
+}
+.boxleft3 p2{
+    float: left;
+    padding: 0%;
+}
+.boxleft4{
+    float: left;
+    width: 30%;
+    background-color:white;
+    min-height: 200px;
+    border: 3px solid green;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.boxleft4 p1{
+    font-weight: bold;
+    font-size: 16pt;
+   color: white;
+   display: block;
+   background-color: green;
+   text-align: center;
+}
+.boxleft4 img{
+    width: 40%;
+    float: left;
+    padding: 5px;
+}
+.boxleft4 p{
+    padding: 10px;
+}
+.boxleft4 a{
+    color: black;
+}
+.boxleft4 a:hover{
+    color: red
+}
+.boxleft4 p1:hover{
+    color: red;
+}
+.boxleft5{
+    float: left;
+    width: 30%;
+    background-color:white;
+    min-height: 200px;
+    border: 3px solid green;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+
+}
+.boxleft5 p1{
+    font-weight: bold;
+    font-size: 16pt;
+   color: white;
+   display: block;
+   background-color: green;
+   text-align: center;
+}
+.boxleft5 p{
+    padding-left: 5px;
+}
+.boxleft5 a{
+    color: black;
+    
+}
+.boxleft5 p1:hover{
+    color: red;
+}
+.boxleft5 a:hover{
+    color: red;
+}
+.boxleft6{
+    float: left;
+    width: 100%;
+
+    background-color:white;
+    min-height: 400px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.boxleft6 p1{
+    float:left;
+    
+}
+.boxleft6 p{
+    text-align: center;
+    padding-top: 10%;
+    margin: 0 auto;
+    
+}
+.boxleft6 a{
+    color: black;
+}
+.boxleft6 a:hover{
+    color: red;
+}
+marquee{
+    float: left;
+    color:green;
+    margin-top: 1%;
+    
+    font-weight: bold;
+}

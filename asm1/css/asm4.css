@@ -1,0 +1,96 @@
+.boxcenter{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+marquee{
+    float: left;
+    color:green;
+    margin-top: 1%;
+    
+    font-weight: bold;
+}
+.boxleft{
+    float: left;
+    width: calc( 70% - 20px);
+    background-color:white;
+    min-height: 550px;
+    margin-right: 20px;
+}
+.boxleft a{
+    font-size: 16px;
+    color: black    ;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 45px;
+color: green;
+}
+.boxleft p{
+    text-align: center;
+    font-weight: bold;
+}
+.boxleft p1{
+    text-align: justify;
+
+}
+.boxleft ul a:hover{
+    color: green;
+}
+p11{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px;
+}
+.boxleft >ul{
+    border: 1px solid green;
+    padding-right: 5%;
+ font-weight: bold;
+
+}
+
+.boxright{
+    float: left;
+    width: 30%;
+    background-color:white;
+    min-height: 700px;
+    list-style: none;
+}
+.boxright a{
+    text-decoration: none;
+
+}
+.boxright p a:hover{
+    color: green;
+}
+.boxleft6{
+    float: left;
+    width: 100%;
+
+    background-color:white;
+    min-height: 400px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.boxleft6 p1{
+    float:left;
+    
+}
+.boxleft6 p{
+    text-align: center;
+    padding-top: 10%;
+    margin: 0 auto;
+    
+}
+.boxleft6 a{
+    color: black;
+}
+.boxleft6 a:hover{
+    color: red;
+}

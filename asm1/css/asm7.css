@@ -1,0 +1,49 @@
+.form{
+    
+    background-color:azure;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+.form{
+    position: absolute;
+    left: 35%;
+    border: 3px solid gray;
+  
+}
+
+button:hover{
+    background-color:aqua;
+    
+}
+a{
+    text-decoration: none;
+}
+.line{ 
+    border-bottom: 1px solid;
+
+}
+span{
+    position: absolute;
+    left: 45%;
+    top: 29%;
+    background-color: gray;
+    ;
+    padding: 0 10px;
+}
+.boxcenter{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+marquee{
+    float: left;
+    color:green;
+    margin-top: 1%;
+    
+    font-weight: bold;
+}
+.boxleft a{
+    font-size: 20px;
+    color: black    ;
+    text-decoration: none;}
