@@ -1,0 +1,46 @@
+
+
+.form{
+    width: 35%;
+    position: absolute;
+    left: 30%;
+    border: 2px solid gray;
+    height: 550px;
+    padding: 0 1%;
+    border: 2px solid black;
+   background-color: aqua;
+}
+.diem{
+    background-color: yellow;
+}
+.form button{
+    padding: 8 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: inset 0 0 20px blue;
+
+}
+.form button:hover{
+    color: blue;
+    box-shadow: 0 0 20px orangered;
+}
+.form button:disabled{
+    color: darkgray;
+    box-shadow: inset 0 0 20px gray;
+}
+.form textarea{
+    background-color: yellow;
+}
+.boxcenter{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+.boxleft a{
+    font-size: 20px;
+    color: black    ;
+    text-decoration: none;}
+   
